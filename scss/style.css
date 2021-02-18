@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clock-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fc728e;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#637cfc), to(#fc728e));
+  background: linear-gradient(to right, #637cfc, #fc728e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.icon {
+  width: 60%;
+  height: 60%;
+}
+
+#hourHand {
+  -webkit-transform-origin: 50% 48.3%;
+          transform-origin: 50% 48.3%;
+}
+
+#minuteHand {
+  -webkit-transform-origin: 50% 48.3%;
+          transform-origin: 50% 48.3%;
+}
+
+#secondHand {
+  -webkit-transform-origin: 50% 48.3%;
+          transform-origin: 50% 48.3%;
+}
+/*# sourceMappingURL=style.css.map */
