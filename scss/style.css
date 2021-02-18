@@ -16,11 +16,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #fc728e;
+  background: #db7f20;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#637cfc), to(#fc728e));
-  background: linear-gradient(to right, #637cfc, #fc728e);
+  background: -webkit-gradient(linear, left bottom, left top, from(#db7f20), to(#1abc9c));
+  background: linear-gradient(to top, #db7f20, #1abc9c);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
