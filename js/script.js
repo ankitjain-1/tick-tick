@@ -1,12 +1,8 @@
 setInterval(() => {
   setClock();
 }, 1000);
-const hours = new Date().getHours() % 12;
-const minutes = new Date().getMinutes();
-const seconds = new Date().getSeconds();
-console.log(hours);
-console.log(minutes);
-console.log(seconds);
+
+
 
 const setClock = () => {
   const hours = new Date().getHours() % 12;
@@ -16,9 +12,9 @@ const setClock = () => {
   const secondHand = document.querySelector("#secondHand");
   const minuteHand = document.querySelector("#minuteHand");
   const hourHand = document.querySelector("#hourHand");
-  secondAngle = seconds * 6 - 180;
-  minuteAngle = minutes * 6 + 270;
-  hourAngle = hours * 30 + minuteAngle / 60;
+  secondAngle = seconds * 6;
+  minuteAngle = minutes * 6 + secondAngle / 60;
+  hourAngle = hours * 30 + minuteAngle / 12;
   setRotation(secondHand, secondAngle);
   setRotation(minuteHand, minuteAngle);
   setRotation(hourHand, hourAngle);
