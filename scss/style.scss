@@ -9,32 +9,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #db7f20; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #db7f20,
-    #1abc9c
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #db7f20,
-    #1abc9c
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #db7f20;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #db7f20, #1abc9c);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #db7f20, #1abc9c);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .icon {
-  width: 60%;
-  height: 60%;
+  width: 20rem;
 }
 
 #hourHand {
-  transform-origin: 50% 48.3%;
+  transform-origin: 50% 50%;
 }
 
 #minuteHand {
-  transform-origin: 50% 48.3%;
+  transform-origin: 50% 50%;
 }
 
 #secondHand {
-  transform-origin: 50% 48.3%;
+  transform-origin: 50% 50%;
 }

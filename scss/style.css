@@ -25,22 +25,21 @@
 }
 
 .icon {
-  width: 60%;
-  height: 60%;
+  width: 20rem;
 }
 
 #hourHand {
-  -webkit-transform-origin: 50% 48.3%;
-          transform-origin: 50% 48.3%;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
 }
 
 #minuteHand {
-  -webkit-transform-origin: 50% 48.3%;
-          transform-origin: 50% 48.3%;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
 }
 
 #secondHand {
-  -webkit-transform-origin: 50% 48.3%;
-          transform-origin: 50% 48.3%;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
 }
 /*# sourceMappingURL=style.css.map */
